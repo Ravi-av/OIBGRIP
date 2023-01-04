@@ -1,0 +1,115 @@
+
+/* General Styling */
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  html {
+    font-size: 12px;
+  }
+  
+  /* Styling first div */
+  
+  .bg-image {
+    background-image: url(/T2TributePage/img/elonbg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #first-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .text-styling {
+    display: inline-block;
+    font-size: 6rem;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    width: 5%;
+    word-wrap: break-word;
+    padding: 20px;
+    color: whitesmoke;
+    opacity: 0.8;
+    margin: auto 10%;
+    text-align: center;
+  }
+  
+  /* Styling second div */
+  
+  #second-div {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  #second-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25vh;
+  }
+  
+  #elon-musk-quote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #second-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 500px;
+    margin-right: 6%;
+  }
+  
+  /* for the image to be displayed efficiently */
+  #elon-musk-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+  }
+  
+  /* Styling third div */
+  
+  #third-div {
+    background-color: #000;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+  }
+  
+  /* Author Text */
+  
+  #author-text {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.6vh;
+  }
